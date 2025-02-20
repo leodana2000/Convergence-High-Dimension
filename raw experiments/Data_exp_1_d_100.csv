@@ -1,0 +1,28 @@
+n,p,d,loss_trend,CV_probability
+100,30,100,0.0,1.0000000000000002
+200,30,100,"tensor(0.0007, dtype=torch.float64)",0.8500000000000002
+300,30,100,"tensor(9.3004e-05, dtype=torch.float64)",0.9500000000000003
+400,30,100,"tensor(0.0002, dtype=torch.float64)",0.9000000000000002
+500,30,100,"tensor(0.0002, dtype=torch.float64)",0.9000000000000002
+600,30,100,"tensor(0.0002, dtype=torch.float64)",0.9000000000000002
+700,30,100,"tensor(6.5314e-05, dtype=torch.float64)",0.9500000000000003
+800,30,100,0.0,1.0000000000000002
+900,30,100,"tensor(5.2956e-05, dtype=torch.float64)",0.9500000000000003
+1000,30,100,0.0,1.0000000000000002
+1100,30,100,"tensor(2.2797e-05, dtype=torch.float64)",0.9500000000000003
+1200,30,100,"tensor(7.8731e-05, dtype=torch.float64)",0.8500000000000002
+1300,30,100,"tensor(0.0003, dtype=torch.float64)",0.44999999999999996
+1400,30,100,"tensor(0.0006, dtype=torch.float64)",0.0
+1500,30,100,"tensor(0.0022, dtype=torch.float64)",0.0
+1600,30,100,"tensor(0.0035, dtype=torch.float64)",0.0
+1700,30,100,"tensor(0.0063, dtype=torch.float64)",0.0
+1800,30,100,"tensor(0.0122, dtype=torch.float64)",0.0
+1900,30,100,"tensor(0.0192, dtype=torch.float64)",0.0
+2000,30,100,"tensor(0.0253, dtype=torch.float64)",0.0
+2100,30,100,"tensor(0.0370, dtype=torch.float64)",0.0
+2200,30,100,"tensor(0.0454, dtype=torch.float64)",0.0
+2300,30,100,"tensor(0.0513, dtype=torch.float64)",0.0
+2400,30,100,"tensor(0.0678, dtype=torch.float64)",0.0
+2500,30,100,"tensor(0.0799, dtype=torch.float64)",0.0
+2600,30,100,"tensor(0.0849, dtype=torch.float64)",0.0
+2700,30,100,"tensor(0.0988, dtype=torch.float64)",0.0
