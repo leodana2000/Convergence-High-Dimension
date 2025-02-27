@@ -1,25 +1,25 @@
 n,p,d,loss_trend,CV_probability
 40,30,40,0.0,1.0000000000000002
-80,30,40,"tensor(0.0005, dtype=torch.float64)",0.9500000000000003
+80,30,40,0.0,1.0000000000000002
 120,30,40,0.0,1.0000000000000002
 160,30,40,0.0,1.0000000000000002
-200,30,40,0.0,1.0000000000000002
-240,30,40,"tensor(0.0007, dtype=torch.float64)",0.8000000000000002
-280,30,40,"tensor(0.0039, dtype=torch.float64)",0.2
-320,30,40,"tensor(0.0061, dtype=torch.float64)",0.0
-360,30,40,"tensor(0.0088, dtype=torch.float64)",0.0
-400,30,40,"tensor(0.0178, dtype=torch.float64)",0.0
-440,30,40,"tensor(0.0235, dtype=torch.float64)",0.0
-480,30,40,"tensor(0.0404, dtype=torch.float64)",0.0
-520,30,40,"tensor(0.0559, dtype=torch.float64)",0.0
-560,30,40,"tensor(0.0827, dtype=torch.float64)",0.0
-600,30,40,"tensor(0.1032, dtype=torch.float64)",0.0
-640,30,40,"tensor(0.1211, dtype=torch.float64)",0.0
+200,30,40,"tensor(0.0003, dtype=torch.float64)",0.9500000000000003
+240,30,40,"tensor(0.0006, dtype=torch.float64)",0.8000000000000002
+280,30,40,"tensor(0.0025, dtype=torch.float64)",0.35
+320,30,40,"tensor(0.0057, dtype=torch.float64)",0.1
+360,30,40,"tensor(0.0108, dtype=torch.float64)",0.0
+400,30,40,"tensor(0.0194, dtype=torch.float64)",0.0
+440,30,40,"tensor(0.0240, dtype=torch.float64)",0.0
+480,30,40,"tensor(0.0451, dtype=torch.float64)",0.0
+520,30,40,"tensor(0.0566, dtype=torch.float64)",0.0
+560,30,40,"tensor(0.0764, dtype=torch.float64)",0.0
+600,30,40,"tensor(0.0972, dtype=torch.float64)",0.0
+640,30,40,"tensor(0.1171, dtype=torch.float64)",0.0
 680,30,40,"tensor(0.1489, dtype=torch.float64)",0.0
-720,30,40,"tensor(0.1713, dtype=torch.float64)",0.0
-760,30,40,"tensor(0.1870, dtype=torch.float64)",0.0
-800,30,40,"tensor(0.2117, dtype=torch.float64)",0.0
-840,30,40,"tensor(0.2352, dtype=torch.float64)",0.0
-880,30,40,"tensor(0.2580, dtype=torch.float64)",0.0
-920,30,40,"tensor(0.2769, dtype=torch.float64)",0.0
-960,30,40,"tensor(0.2853, dtype=torch.float64)",0.0
+720,30,40,"tensor(0.1737, dtype=torch.float64)",0.0
+760,30,40,"tensor(0.1967, dtype=torch.float64)",0.0
+800,30,40,"tensor(0.2122, dtype=torch.float64)",0.0
+840,30,40,"tensor(0.2320, dtype=torch.float64)",0.0
+880,30,40,"tensor(0.2440, dtype=torch.float64)",0.0
+920,30,40,"tensor(0.2707, dtype=torch.float64)",0.0
+960,30,40,"tensor(0.2854, dtype=torch.float64)",0.0

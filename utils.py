@@ -2,9 +2,11 @@ import numpy as np
 import torch as t
 
 def nb_neurons(n:int, eps:float) -> int:
+    """ Corresponds to the number of neurons necessary to have a good initialization with probability at least {eps}. """
     return int(np.floor(np.log(n/eps)/np.log(4/3)))+1
 
 def nb_epochs(n:int, p:int, lr:float) -> int:
+    """ Corresponds to 1.5 the phase transition threshold. """
     return int(1.5*np.sqrt(n*p)*np.log(n*p)/(4*lr)+1)
 
 
@@ -16,8 +18,9 @@ def reg_lin(X, Y):
     a = np.sum((X-mean_X)*(Y-mean_Y))/np.sum((X-mean_X)**2)
     b = mean_Y - a*mean_X
 
-    r = 1 - np.sum((Y - (a*X+b))**2)/np.sum((Y-mean_Y)**2)
-    return (a,b,r)
+    eps = Y - a*mean_X - b
+    max_eps = np.max(np.abs(eps))
+    return (a,b,max_eps)
 
 
 def sigmoid(x):

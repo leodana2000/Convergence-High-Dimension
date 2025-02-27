@@ -6,6 +6,7 @@ from tqdm import tqdm
 
 class One_hidden_layer(t.nn.Module):
     """Instantiate a two-layer NN with ReLU."""
+
     def __init__(self, emb_dim: int, hid_dim: int, biases: bool = False) -> None:
         super().__init__()
 
@@ -87,6 +88,6 @@ def train(model: One_hidden_layer, data: Tuple[t.Tensor, t.Tensor], lr: float, e
         optimizer.zero_grad()
         Loss.append(loss.item())
         if loss < num_neuron/(2*loss_norm)*cv_threshold:
-            break # Early stopping: if the loss is small enough, it will reach 0.
+            break # Early stopping: if the loss is small enough (it will reach 0).
 
     return Loss

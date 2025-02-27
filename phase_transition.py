@@ -104,7 +104,7 @@ def update(frame):
     return line, Vbar1, Vbar2, Hbar1, Hbar2, Hbar3
 
 ani = FuncAnimation(fig, update, frames=210, init_func=init, blit=True)
-ani.save("Images/phase_transition.gif", fps=25)
+ani.save("Images/Phase_Transition.gif", fps=25)
 
 ### Final image
 n = 100+int(np.exp(210/5))
@@ -150,4 +150,4 @@ ax.tick_params(axis='x', labelsize=16)
 ax.tick_params(axis='y', labelsize=16)
 plt.legend(fontsize=16)
 plt.subplots_adjust(bottom=0.15, left=0.15)
-plt.savefig("Images/Phase Transition.png", dpi=300)
+plt.savefig("Images/Phase_Transition.png", dpi=300)
