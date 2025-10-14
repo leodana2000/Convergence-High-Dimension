@@ -1,0 +1,17 @@
+n,d,p,loss_trend,CV_probability
+250,30,150,0.0,1.0000000000000002
+260,30,150,0.0,1.0000000000000002
+270,30,150,0.0,1.0000000000000002
+280,30,150,0.0,1.0000000000000002
+290,30,150,0.0,1.0000000000000002
+300,30,150,"tensor(6.5048e-05, dtype=torch.float64)",0.9600000000000003
+310,30,150,"tensor(0.0004, dtype=torch.float64)",0.8400000000000002
+320,30,150,"tensor(0.0008, dtype=torch.float64)",0.68
+330,30,150,"tensor(0.0012, dtype=torch.float64)",0.68
+340,30,150,"tensor(0.0050, dtype=torch.float64)",0.2
+350,30,150,"tensor(0.0075, dtype=torch.float64)",0.12
+360,30,150,"tensor(0.0077, dtype=torch.float64)",0.08
+370,30,150,"tensor(0.0124, dtype=torch.float64)",0.08
+380,30,150,"tensor(0.0205, dtype=torch.float64)",0.0
+390,30,150,"tensor(0.0315, dtype=torch.float64)",0.0
+400,30,150,"tensor(0.0270, dtype=torch.float64)",0.0
